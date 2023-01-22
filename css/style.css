@@ -1,0 +1,60 @@
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(219, 3, 3, 0.336);
+    border-radius: 2px;
+}
+
+.text-primary {
+    color: #0c2e8a !important;
+}
+
+.bg-primary {
+    background-color: #0c2e8a !important;
+}
+
+.border-primary {
+    border-color: #0c2e8a !important;
+}
+
+
+.text-secondary {
+    color: #50d8af !important;
+}
+
+.btn-primary {
+    background-color: #0c2e8a;
+}
+
+.btn-secondary {
+    background-color: #50d8af;
+}
+
+.carousel-img-1 {
+    position: relative;
+    background-image: url("../image/carousel/1.jpg");
+    height: 100vh;
+}
+
+.carousel-img-1::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.582);
+}
+
+.carousel-img-2 {
+    background-image: url("../image/carousel/4.jpg");
+    height: 100vh;
+}
+
+.carousel-img-3 {
+    background-image: url("../image/carousel/3.jpg");
+    height: 100vh;
+}
+
+.clients-img {
+    width: 150px;
+}
